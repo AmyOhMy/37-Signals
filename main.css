@@ -97,6 +97,7 @@ table {
 	margin: 30px auto 30px;
 }
 
+
 #logo {
 	width: 164px;
 	height: 39px;
@@ -130,6 +131,112 @@ table {
 	line-height: 1.3em;
 
 }
+/*Start of Alt Hover JS*/
+
+#alt-Basecamp {
+	display: none;
+	width: auto;
+	height: 165px;
+}
+
+#alt-Basecamp h1 {
+	font-size: 45px;
+	letter-spacing: -1px;
+}
+
+#alt-Basecamp h1 span {
+	text-decoration: underline;
+	color: #369;
+}
+
+#alt-Basecamp h3 {
+	font-family: Tahoma, sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+	width: 800px;
+	font-weight: normal;
+}
+
+#alt-Highrise {
+	display: none;
+	width: auto;
+	height: 165px;
+}
+
+#alt-Highrise h1 {
+	font-size: 45px;
+	letter-spacing: -1px;
+}
+
+#alt-Highrise h1 span {
+	text-decoration: underline;
+	color: #369;
+}
+
+#alt-Highrise h3 {
+	font-family: Tahoma, sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+	width: 800px;
+	font-weight: normal;
+}
+
+#alt-Campfire {
+	display: none;
+	width: auto;
+	height: 165px;
+}
+
+#alt-Campfire h1 {
+	font-size: 45px;
+	letter-spacing: -1px;
+}
+
+#alt-Campfire h1 span {
+	text-decoration: underline;
+	color: #369;
+}
+
+#alt-Campfire h3 {
+	font-family: Tahoma, sans-serif;
+	font-size: 16px;
+	line-height: 1.5em;
+	width: 800px;
+	font-weight: normal;
+}
+
+
+
+.arrow-block {
+	width: 680px;
+	height: 70px;
+	margin: -10px auto 0 auto;
+}
+
+.arrow {
+	position: relative;
+	margin: 0;
+	height: 69px;
+	width: 69px;
+	z-index: 100;
+	display: inline-block;
+}
+
+#left-one {
+	float: left;
+	margin-left: 168px;
+}
+
+#left-two {
+	margin-left: 400px;
+}
+
+#right {
+    float: right;
+	margin-right: 150px;
+}
+
+/*End of Alt Hover JS*/
 
 #image-container {
 	width: 670px;
@@ -144,7 +251,7 @@ table {
 	border: 1px solid #e8e8e8;
 	border-radius: 5px;
 	float: left;
-	margin: 9px 21px;
+	margin: -50px 21px;
 	background: url('images/Basecamp.png') no-repeat;
 	background-position: 50% 20px;
 } 
@@ -155,7 +262,7 @@ table {
 	border: 1px solid #e8e8e8;
 	border-radius: 5px;
 	float: left;
-	margin: 9px 21px;
+	margin: -50px 21px;
 	background: url('images/Highrise.png') no-repeat;
 	background-position: 50% 20px;
 }
@@ -166,7 +273,7 @@ table {
 	border: 1px solid #e8e8e8;
 	border-radius: 5px;
 	float: right;
-	margin: 9px 21px;
+	margin: -50px 21px;
 	background: url('images/Campfire.png') no-repeat;
 	background-position: 50% 20px;
 }
